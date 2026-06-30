@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Munagala Jahnavi</title>
+<meta name="description" content="Get in touch with Munagala Jahnavi, B.Tech Computer Science student, via email, phone, or the contact form.">
+<meta name="author" content="Munagala Jahnavi">
+<link rel="canonical" href="https://example.com/contact.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Contact — Munagala Jahnavi">
+<meta property="og:description" content="Reach out to discuss opportunities, collaborations, or questions about my projects.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html"><span class="brand-mark">&lt;/&gt;</span> Jahnavi M.</a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="primary-menu">Menu</button>
+    <nav class="primary-nav" aria-label="Primary">
+      <ul id="primary-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <header class="wrap" style="padding-block:3rem 1rem;">
+    <p class="eyebrow">Let's connect</p>
+    <h1 style="font-family:var(--font-display); font-size:clamp(1.9rem,3.6vw,2.6rem); margin:0 0 1rem;">Contact</h1>
+    <p style="color:var(--text-muted); max-width:62ch;">Open to internships, collaborations, and conversations about software, AI, and data. Reach out below, or use the form — every field is reachable with the Tab key and works with screen readers.</p>
+  </header>
+
+  <section aria-labelledby="contact-heading">
+    <div class="wrap contact-layout">
+      <div class="contact-info">
+        <h2 id="contact-heading" class="visually-hidden">Contact details</h2>
+        <address>
+          <div class="info-row">
+            <span class="ic" aria-hidden="true">@</span>
+            <span><strong>Email</strong><br><a href="mailto:jahnavigoud2007@gmail.com">jahnavigoud2007@gmail.com</a></span>
+          </div>
+          <div class="info-row">
+            <span class="ic" aria-hidden="true">#</span>
+            <span><strong>Phone</strong><br><a href="tel:+918179110525">+91 8179110525</a></span>
+          </div>
+          <div class="info-row">
+            <span class="ic" aria-hidden="true">~</span>
+            <span><strong>Location</strong><br>Jogulamba Gadwal, Telangana, India</span>
+          </div>
+        </address>
+      </div>
+
+      <form class="contact-form card" novalidate aria-describedby="form-status">
+        <h2 style="font-family:var(--font-display); margin-top:0;">Send a message</h2>
+
+        <div class="field">
+          <label for="name">Full name <span class="required-flag" aria-hidden="true">*</span></label>
+          <input type="text" id="name" name="name" autocomplete="name" required aria-required="true">
+        </div>
+
+        <div class="field">
+          <label for="email">Email address <span class="required-flag" aria-hidden="true">*</span></label>
+          <input type="email" id="email" name="email" autocomplete="email" required aria-required="true" aria-describedby="email-hint">
+          <p id="email-hint" class="hint">I'll reply to this address.</p>
+        </div>
+
+        <div class="field">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" autocomplete="off">
+        </div>
+
+        <div class="field">
+          <label for="message">Message <span class="required-flag" aria-hidden="true">*</span></label>
+          <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
+        </div>
+
+        <button type="submit" class="btn">Send message</button>
+        <p id="form-status" class="form-status" role="status" tabindex="-1"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>&copy; 2026 Munagala Jahnavi. Built with semantic, accessible HTML.</p>
+    <p><a href="mailto:jahnavigoud2007@gmail.com">jahnavigoud2007@gmail.com</a> · +91 8179110525</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
